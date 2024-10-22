@@ -1,11 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Create an admin account" type="ShConfigurationType">
-    <option name="SCRIPT_TEXT" value="docker compose -p d8 -f docker-compose-cli.yml run --rm dspace-cli create-administrator -e test@test.edu -f admin -l user -p admin -c en" />
+  <configuration default="false" name="Create an admin account (JAR)" type="ShConfigurationType">
+    <option name="SCRIPT_TEXT" value="./dspace create-administrator" />
     <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
     <option name="SCRIPT_PATH" value="" />
     <option name="SCRIPT_OPTIONS" value="" />
     <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-    <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="SCRIPT_WORKING_DIRECTORY" value="/opt/dspace/bin" />
     <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
     <option name="INTERPRETER_PATH" value="/bin/bash" />
     <option name="INTERPRETER_OPTIONS" value="" />
